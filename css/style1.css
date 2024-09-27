@@ -1,0 +1,92 @@
+body{
+  background-color:#73607c;
+}
+
+#gridContainer{
+  display: grid;
+  grid-template-areas:'page1 page2 page3 page3 page4'
+                      'page5 page2 page3 page3 page4'
+                      'page5 page6 page6 page7 page8'
+                      'page9 page6 page6 page10 page8'
+                      'page11 page11 page12 page10 page13'
+                      'page11 page11 page12 page14 page14';
+  /* background-color: #73607c; */
+  padding: 10px;
+  gap: 15px;
+}
+
+#gridContainer > div{
+  color: white;
+}
+
+
+.page1{
+  grid-area: page1;
+  background-color: #fcc664;
+}
+
+.page2{
+  grid-area: page2;
+  background-color: #c1b9ae;
+}
+
+.page3{
+  grid-area: page3;
+}
+
+.page4{
+  grid-area: page4;
+}
+
+.page5{
+  grid-area: page5;
+  background-color: #c1b9ae;
+}
+
+.page6{
+  grid-area: page6;
+}
+
+.page7{
+  grid-area: page7;
+  background-color: #fd8b70;
+}
+
+.page8{
+  grid-area: page8;
+  background-color: #c1b9ae;
+}
+
+.page9{
+  grid-area: page9;
+}
+
+.page10{
+  grid-area: page10;
+}
+
+.page11{
+  grid-area: page11;
+}
+
+.page12{
+  grid-area: page12;
+  background-color: #c1b9ae;
+}
+
+.page13{
+  grid-area: page13;
+}
+
+.page14{
+  grid-area: page14;
+}
+
+h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin: 0;
+}
+
